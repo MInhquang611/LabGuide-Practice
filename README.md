@@ -1,2 +1,2 @@
-# Th-c-h-nh-LabGuide
+# LabGuide
 Quang
