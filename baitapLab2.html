@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập Lab2 Quang</title>
+</head>
+
+<body>
+    <!--LabGuide02-->
+    <!--Bài 1-->
+    Bài 1
+    <br>
+    <table border="1" cellspacing="0" cellpadding="9">
+
+        <tr>
+            <th rowspan="2">STT</th>
+            <th rowspan="2">Mã nhân viên</th>
+            <th rowspan="2">Họ và tên</th>
+            <th colspan="2">Thông tin</th>
+        </tr>
+
+        <tr>
+            <td><b>Nơi sinh</b></td>
+            <td><b>Ngày sinh</b></td>
+        </tr>
+        <tr>
+            <td align="center">1</td>
+            <td align="center">A001</td>
+            <td align="center">Nguyễn Văn A</td>
+            <td align="center">Đà Nẵng</td>
+            <td align="center">19/03/1994</td>
+        </tr>
+        <tr>
+            <td align="center">2</td>
+            <td align="center">B002</td>
+            <td align="center">Nguyễn Văn B</td>
+            <td align="center">Cà Mau</td>
+            <td align="center">25/12/1998</td>
+        </tr>
+        <tr>
+            <td align="center">3</td>
+            <td align="center">C003</td>
+            <td align="center">Nguyễn Văn C</td>
+            <td align="center">Mỹ Tho</td>
+            <td align="center">16/11/1999</td>
+        </tr>
+
+    </table>
+    <hr>
+    <!--Bài 2-->
+    Bài 2 <br>
+    <table border="1" cellspacing="0" cellpadding="7">
+        <tr>
+            <td align="center" style="color: yellow; background-color: black;">Tên miền</td>
+            <td align="center" style="color: yellow; background-color: black;">Phí cài đặt</td>
+            <td align="center" style="color: yellow; background-color: black;">Chi phí</td>
+        </tr>
+        <tr>
+            <td align="center">.com</td>
+            <td align="center">Miễn phí</td>
+            <td align="center">200.000đ/năm</td>
+        </tr>
+        <tr>
+            <td align="center">.net</td>
+            <td align="center">Miễn phí</td>
+            <td align="center">200.000đ/năm</td>
+        </tr>
+        <tr>
+            <td align="center">.co.uk</td>
+            <td align="center">Miễn phí</td>
+            <td align="center">Miễn phí</td>
+        </tr>
+    </table>
+    <hr>
+    <!--Bài 3-->
+    Bài 3
+    <table border="1" cellspacing="0" cellpadding="7">
+        <tr>
+            <td rowspan="3" align="center"><b>Buổi</b></td>
+            <td colspan="3" align="center"><b>Lịch học</b></td>
+        </tr>
+        <tr>
+            <td colspan="2" align="center">Thời gian</td>
+            <td rowspan="2" align="center">Môn học</td>
+        </tr>
+        <tr>
+            <td align="center">Bắt đầu</td>
+            <td align="center">Kết thúc</td>
+        </tr>
+        <tr>
+            <td rowspan="2"><b>Thứ 2</b></td>
+            <td rowspan="2">8:00 AM</td>
+            <td rowspan="2">12:00 AM</td>
+            <td>Cơ sở dữ liệu</td>
+        </tr>
+        <tr>
+            <td>Nhập môn C</td>
+        </tr>
+        <tr>
+            <td rowspan="3"><b>Thứ 3</b></td>
+            <td>8:00 AM</td>
+            <td>12:00 AM</td>
+            <td>Thiết kế web</td>
+        </tr>
+        <tr>
+            <td>2:00 PM</td>
+            <td>5:00 PM</td>
+            <td rowspan="2">PHP</td>
+        </tr>
+        <tr>
+            <td>6:00 PM</td>
+            <td>8:00 PM</td>
+        </tr>
+        <tr>
+            <td><b>Thứ 4</b></td>
+            <td>2:00 PM</td>
+            <td>9:00 PM</td>
+            <td>JAVA CORE</td>
+        </tr>
+    </table>
+    <hr>
+    <!--Bài 6-->
+    Bài 6 <br>
+    <h3>Đăng ký thông tin người sử dụng</h3>
+
+
+    <form action enctype="multipart/form-data" method="post">
+        <table>
+            <tr>
+                <td><label for="username"><b>Tên đăng nhập</b></label></td>
+                <td><input type="text" name="username" id="username"></td>
+            </tr>
+            <tr>
+                <td><label for="password"><b>Mật khẩu</b></label></td>
+                <td><input type="password" name="password" id="password">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="password"><b>Nhập lại mật khẩu</b></label></td>
+                <td><input type="password" name="password" id="password"></td>
+            </tr>
+            <tr>
+                <td><label for="email"><b>Email</b></label></td>
+                <td><input type="text" name="" id="" size="33"></td>
+            </tr>
+            <tr>
+                <td><label for><b>Giới tính:</b></label></td>
+                <td>
+                    <label for="Nam">Nam</label>
+                    <input type="radio" name="gioitinh" id="Nam" checked>
+                    <label for="Nữ">Nữ</label>
+                    <input type="radio" name="gioitinh" id="Nữ">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="Độ Tuổi"><b>Độ tuổi</b></label></td>
+                <td>
+                    <label for="age">Dưới 13 tuổi</label>
+                    <input type="radio" name="age" id="age" checked>
+                    <label for="age">Từ 13 đến 17 tuổi</label>
+                    <input type="radio" name="age" id="age">
+                    <label for="age">Từ 18 đến 25 tuổi</label>
+                    <input type="radio" name="age" id="age">
+                    <label for="age">Trên 25 tuổi</label>
+                    <input type="radio" name="age" id="age">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="hobby"><b>Sở thích của bạn</b></label></td>
+                <td>
+                    <label for="amnhac">Âm nhạc</label>
+                    <input type="checkbox" name="hobby" id="amnhac">
+                    <label for="game">Game</label>
+                    <input type="checkbox" name="hobby" id="game">
+                    <label for="thethao">Thể thao</label>
+                    <input type="checkbox" name="hobby" id="thethao">
+                    <label for="dulich">Du lịch</label>
+                    <input type="checkbox" name="hobby" id="dulich">
+                </td>
+            </tr>
+            <tr>
+                <td><label for="nghenghiep"><b>Nghề nghiệp</b></label></td>
+                <td><select name="nghenghiep" id="nghenghiep">
+                        <option value="">Chọn ngành nghề</option>
+                        <option value="hocsinh">Học sinh</option>
+                        <option value="bacsi">Bác sĩ</option>
+                        <option value="kisu">Kĩ sư</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="mota"><b>Mô tả bản thân</b></label></td>
+                <td><textarea rows="5" cols="30" name="mota" id="mota">Mô tả về bản thân bạn...</textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2" align="center">
+                    <input type="submit" name="dangky" id="dangky" value="Đăng ký">
+                    <input type="reset" name="reset" id="reset" value="Làm lại">
+                </td>
+            </tr>
+        </table>
+    </form>
+    <hr>
+    <!--Bài 7-->
+    Bài 7
+    <fieldset>
+        <h3>To Do List</h3>
+        <hr>
+        <form action="" method="post">
+            <label for="item"><b>Item</b></label><br>
+            <input type="text" name="item" id="item" size="55"><br><br>
+            <label for="desc"><b>Description</b></label><br>
+            <textarea name="desc" id="desc" cols="52" rows="7"></textarea><br><br>
+            <label for="priority"><b>Priority</b></label>
+            <select name="priority" id="priority">
+                <option value="priority">Low</option>
+                <option value="priority">Medium</option>
+                <option value="priority">High</option>
+                <option value="priority">Ultra High</option>
+            </select>
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="category"><b>Category</b></label>
+            <select name="category" id="category">
+                <option value="category">Personal</option>
+                <option value="category">Study</option>
+                <option value="category">Work</option>
+                <option value="category">Other</option>
+            </select>
+            <br><br><br>
+            <label for="duedate"><b>Due Date</b></label><br>
+            <input type="text" name="mm" id="mm" size="1"> /
+            <input type="text" name="DD" id="DD" size="1"> /
+            <input type="text" name="yy" id="yy" size="2">
+            <input type="date" name="duedate" id="duedate"><br>
+            MM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;DD&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;YYYY
+            <p>
+                <label for="Status"><b>Status</b></label><br>
+                <input type="checkbox" name="done" id="done">Done.
+            </p>
+            <p>
+                <input type="submit" name="submit" id="submit">
+            </p>
+        </form>
+    </fieldset>
+    <hr>
+    <!--Bài 8-->
+    Bài 8 <br>
+    <h1>Google</h1>
+    <p>Đăng nhập để thêm tài khoản khác</p>
+
+    <form action="" method="post">
+        <p><input type="email" name="email" placeholder="Email" required></p>
+        <p><input type="password" name="password" placeholder="Mật khẩu" required></p>
+        <p><input type="submit" value="Đăng nhập"></p>
+        <p><a href="linka">Bạn cần trợ giúp?</a></p>
+        <p><a href="linkb">Tạo một tài khoản</a></p>
+    </form>
+    <hr>
+    <!--Bài 9-->
+    Bài 9 <br>
+    <h1>facebook</h1>
+    <form action="" method="post">
+        <p>
+            <label for="email" for="phonenumber">Email hoặc số điện thoại</label><br>
+            <input type="text" name="username" required>
+        </p>
+        <p>
+            <label for="password">Mật khẩu</label><br>
+            <input type="password" name="password" required>
+        </p>
+        <p>
+            <input type="checkbox" name="remember"> Duy trì đăng nhập
+        </p>
+        <p><input type="submit" value="Đăng nhập"></p>
+        <p><a href="#">Quên mật khẩu?</a></p>
+    </form>
+    <hr>
+    <!--Bài 10-->
+    Bài 10 <br>
+    <fieldset>
+        <form action="#" method="post">
+            <p>
+                <label for="lastname">Họ</label><br>
+                <input type="text" id="lastname" name="lastname" placeholder="Họ" required>
+                <input type="text" id="firstname" name="firstname" placeholder="Tên" required>
+            </p>
+
+            <p>
+                <label for="contact">Số di động hoặc email</label><br>
+                <input type="text" id="contact" name="contact" placeholder="Số di động hoặc email" required>
+            </p>
+
+            <p>
+                <label for="password">Mật khẩu mới</label><br>
+                <input type="password" id="password" name="password" placeholder="Mật khẩu mới" required>
+            </p>
+            <fieldset>
+                <legend>Ngày sinh</legend>
+                <label for="day">Ngày</label>
+                <select id="day" name="day" required>
+                    <option value="" selected>Ngày</option>
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+
+                <label for="month">Tháng</label>
+                <select id="month" name="month" required>
+                    <option value="" selected>Tháng</option>
+                    <option value="1">Tháng 1</option>
+                    <option value="2">Tháng 2</option>
+                    <option value="3">Tháng 3</option>
+                    <option value="4">Tháng 4</option>
+                    <option value="5">Tháng 5</option>
+                    <option value="6">Tháng 6</option>
+                    <option value="7">Tháng 7</option>
+                    <option value="8">Tháng 8</option>
+                    <option value="9">Tháng 9</option>
+                    <option value="10">Tháng 10</option>
+                    <option value="11">Tháng 11</option>
+                    <option value="12">Tháng 12</option>
+                </select>
+
+                <label for="year">Năm</label>
+                <select id="year" name="year" required>
+                    <option value="" selected>Năm</option>
+                    <option>1979</option>
+                    <option>1980</option>
+                    <option>1981</option>
+                    <option>1982</option>
+                    <option>1983</option>
+                    <option>1984</option>
+                    <option>1985</option>
+                    <option>1986</option>
+                    <option>1987</option>
+                    <option>1988</option>
+                    <option>1989</option>
+                    <option>1990</option>
+                    <option>1991</option>
+                    <option>1992</option>
+                    <option>1993</option>
+                    <option>1994</option>
+                    <option>1995</option>
+                    <option>1996</option>
+                    <option>1997</option>
+                    <option>1998</option>
+                    <option>1999</option>
+                    <option>2000</option>
+                    <option>2001</option>
+                    <option>2002</option>
+                    <option>2003</option>
+                    <option>2004</option>
+                    <option>2005</option>
+                </select>
+                <a href="linkA"><small>Tại sao tôi cần cung cấp ngày sinh của mình?</small></a>
+            </fieldset>
+
+            <fieldset>
+                <legend>Giới tính</legend>
+                <label>
+                    <input type="radio" name="gender" value="female" required> Nữ
+                </label>
+                <label>
+                    <input type="radio" name="gender" value="male"> Nam
+                </label>
+            </fieldset>
+
+            <p>
+                <small>Bằng cách nhấp vào <strong>Tạo tài khoản</strong>, bạn đồng ý với
+                    <a href="#">Điều khoản</a> và xác nhận đã đọc <a href="#">Chính sách dữ liệu</a> và
+                    <a href="#">Cookie</a>.</small>
+            </p>
+
+            <p>
+                <input type="submit" value="Tạo tài khoản">
+            </p>
+
+            <p><a href="#">Tạo Trang</a> dành cho người nổi tiếng, nhãn hiệu hoặc doanh nghiệp.</p>
+        </form>
+    </fieldset>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+</html>
